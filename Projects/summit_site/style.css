@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Faculty+Glyphic&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Caveat:wght@400..700&family=Faculty+Glyphic&display=swap);
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: hsla(0, 0%, 0%, 0);
+}
+
+body {
+    background-image: url(images/dogs-8545278_1920.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+
+#container {
+    width: 1440px;
+    font-family: Helvetica, Ariel, sans-serif;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(120, 184, 240, 0.6);
+
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-image: url(images/summit_farms.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 375px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+}
+
+h1, h2,
+h3 {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    color: rgb(0, 0, 0);
+    background-color: rgba(120, 184, 240, 0.6);
+    padding: 0.2em;
+    font-size: 0.8em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+
+
+}
+
+p {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+nav {
+    padding: 5px 0;
+}
+
+nav ul {
+    padding-inline-start: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 1.8em;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: larger;
+}
+
+nav a:hover {
+    list-style-type: none;
+    color: #fdfdfd;
+}
+
+
+main {
+    background-color: hsla(0, 0%, 98%, 0.6);
+    padding: 10px;
+    padding-left: 5px;
+    order: 1;
+    flex: 1;
+    font-weight: 600;
+
+}
+
+#sidebar_a {
+    background-color: rgba(120, 184, 240, 0.6);
+    padding: 10px;
+    order: 0;
+    flex: 1;
+    font-weight: 600;
+}
+
+#sidebar_b {
+    background-color: rgba(120, 184, 240, 0.6);
+    padding: 10px;
+    order: 2;
+    flex: 1;
+    font-weight: 600;
+}
+
+
+.callout:nth-child(1) {
+    background-color: hsla(0, 0%, 98%, 0.6);
+    flex: 3;
+    font-weight: 600;
+}
+
+.callout:nth-child(2) {
+    background-color: rgba(120, 184, 240, 0.6);
+    flex: 1;
+    font-weight: 600;
+}
+
+.callout:nth-child(3) {
+    background-color: hsla(0, 100%, 100%, 0.6);
+    flex: 1;
+    font-weight: 600;
+
+}
+
+.calloutcontainer {
+    max-width: 1440px;
+    display: flex;
+
+}
+
+.callout {
+    padding: 10px;
+    background-color: rgba(120, 184, 240, 0.6);
+    font-weight: 600;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1.2em;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img.left {
+    float: left;
+    margin: 10px 20px 10px 0px;
+}
+
+img.right {
+    float: right;
+    margin: 10px 0px 10px 5px;
+}
+
+img.center {
+    margin: 10px 0px 10px 5px;
+}
+
+.breed {
+    padding-left: 20px;
+}
+
+.factlist {
+    text-align: left;
+    font-weight: 800;
+}
+
+ul {
+    text-align: left;
+    padding-left: 125px;
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+.dog {
+    border-bottom: 2px solid black;
+}
+
+
+.Adoptee {
+
+    text-align: center;
+}

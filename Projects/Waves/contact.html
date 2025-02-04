@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <header id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Contact US</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container" id="contact">
+
+            <a class="navbar-brand" href="lessons.html">WAVES Surfing School</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            What We offer
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="camps.html">Camps</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="lessons.html">Lessons</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <h3>WAVES Surfing School</h3>
+                    <p>Hours Of Operation:</p>
+                    <p>Sunday 5:30 Am - 6:30 PM or Sunset</p>
+                    <p>Monday 5:30 Am - 7:30 AM 4:30 PM to 6:30 PM or Sunset</p>
+                    <p>Tuesday 5:30 Am - 7:30 AM 4:30 PM to 6:30 PM or Sunset</p>
+                    <p>Wednesday 5:30 Am - 7:30 AM 4:30 PM to 6:30 PM or Sunset</p>
+                    <p>Thursday 5:30 Am - 7:30 AM 4:30 PM to 6:30 PM or Sunset</p>
+                    <p>Friday 5:30 Am - 6:30 PM or Sunset</p>
+                    <p>Saturday 5:30 Am - 6:30 PM or Sunset</p>
+
+                </div>
+                <div class="col-sm-6 col-md-8 col-lg-8">
+
+                    <h3>Contact Us!</h3>
+
+
+                    <div class="form_Container">
+
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img style='float:right;width:200px;height:200px; margin-left:10px;'
+                                        src="images/Logo.png" alt="Waves Logo" />
+                                    <p class="text-center">Address:</p>
+                                    <p class="text-center">141 Ocean Front Drive Santa Monica, CA 90401</p>
+                                    <p class="text-center">Phone: 555) 555 - 5555</p>
+                                </div>
+                            </div>
+                            <form name="contact" method="post" action="form_response_basic-1.php">
+
+
+                                <div class="form-group">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" id="fname" name="fname" placeholder="First Name">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id="lname" name="lname" placeholder="Last Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">EMail</label>
+                                    <input type="text" id="EMail" name="EMail" placeholder="info@email.com">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="topic">Reason For Contact</label>
+                                    <select id="topic" name="topic">
+                                        <option value="Lessons">Lessons</option>
+                                        <option value="Camp">Camp</option>
+                                        <option value="General Inquiry">General Inquiry</option>
+                                        <option value="Group Lesson">Group Lesson</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea rows="5" cols="40" id="message" name="message"
+                                        placeholder="Please leave a detailed message regarding you request"></textarea>
+                                </div>
+
+
+                                <div class="Buttons">
+                                    <input type="submit" value="submit">
+                                    <input type="reset" value="reset">
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>WAVES Surfing School</p>
+                    <p>141 Ocean Front Drive Santa Monica, CA 90401 |
+                        Phone (555) 555 - 5555</p>
+
+                </div>
+            </div>
+        </div>
+        <p><a href="#top">Back to Top</a></p>
+        <p><a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="lessons.html">Lessons </a>
+                <a href="camps.html">Camps</a>
+                <a href="contact.html">Contact</a>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

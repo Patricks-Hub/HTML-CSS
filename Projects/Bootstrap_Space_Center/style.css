@@ -1,0 +1,45 @@
+body {
+    background-image: url(images/cosmos-1853491_1920.jpg);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    color: aliceblue;
+    text-align: center;
+}
+
+.card p {
+
+    color: black;
+    font-weight: 700;
+
+}
+
+.apply {
+    align-content: center;
+}
+
+.navbar {
+    background-image: url(images/nav.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item,
+.nav-link {
+    color: aliceblue;
+}
+
+.navbar-brand {
+    color: aliceblue;
+
+}
+
+footer{
+padding: auto;
+margin-top: 30px;
+}

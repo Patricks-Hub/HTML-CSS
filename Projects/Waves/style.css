@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Caveat:wght@400..700&family=Faculty+Glyphic&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Caveat:wght@400..700&family=Covered+By+Your+Grace&family=Faculty+Glyphic&family=Rock+Salt&display=swap');
+
+
+
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+header {
+    background-image: url(images/Banner.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 320px;
+}
+h1 {
+    color: rgb(252, 252, 252);
+    text-align: center;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+h2,h3, li,p {
+    color: rgb(255, 253, 253);
+    text-align: center;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+h2,
+h3,
+h4,
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+
+}
+
+h3{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+p{
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+
+
+}
+
+li{
+    padding-bottom: 10px;
+    font-size: medium;
+    font-weight: 700;
+
+
+}
+
+.navbar {
+    padding-top: 10 px;
+    background-image: url(images/nav.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item,
+.nav-link {
+    color: rgb(247, 247, 247);
+    font-size: large;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    align-content: center;
+    color: rgb(254, 255, 255);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+a:hover,
+a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.lower p {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    background-color: rgba(37, 37, 37, 0);
+}
+
+.weather p {
+    color: rgb(255, 249, 249);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    background-color: rgba(37, 37, 37, 0);
+}
+
+footer p {
+    color: rgb(207, 201, 201);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.carousel {
+    padding-top: 40px;
+padding-bottom: 40px;
+}
+
+
+.form_Container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid rgba(6, 31, 252, 0.377);
+    background-color: rgba(134, 134, 134, 0.363);
+    box-shadow: 0 2px 8px hsla(0, 0%, 0%, 0.65);
+    border-radius: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+font-weight: 700;
+
+}
+
+.footerlinks {
+display: inline;
+padding: auto;
+text-align: center;
+
+}
